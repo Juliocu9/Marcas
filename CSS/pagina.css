@@ -1,5 +1,10 @@
 body {
 	background-image: url(../Imagenes/fondo.jpg);
-	background-repeat: no-repeat;4
+	background-repeat: no-repeat;
+	background-height:100%;
+	background-width:100%;
 	background-size: auto;
+	background-attachment: fixed;
+	background-position: center center;
+
 }
