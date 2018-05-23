@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="coches.xsl"?>
 <vehiculos>
+
    <vehiculo>
-     <marca>Mercedes</marca>
+     <marca>Mercedess</marca>
      <modelo>Clase E 220D</modelo>
+     <imagen/>
      <año>2016</año>
      <precio>16.000 &#8364;</precio>
      <lista>si</lista>
    </vehiculo>
-      <vehiculo>
-     <marca>Mercedes</marca>
+   <vehiculo>
+     <marca>Mercedess</marca>
      <modelo>Clase E 220D</modelo>
+     <imagen/>
      <año>2016</año>
      <precio>16.000 &#8364;</precio>
-     <lista>No</lista>
-   </vehiculo>
-      <vehiculo>
-     <marca>Mercedes</marca>
-     <modelo>Clase E 220D</modelo>
-     <año>2016</año>
-     <precio>16.000 &#8364;</precio>
-     <lista>No</lista>
-   </vehiculo>
-      <vehiculo>
-     <marca>Mercedes</marca>
-     <modelo>Clase E 220D</modelo>
-     <año>2016</año>
-     <precio>16.000 &#8364;</precio>
-     <lista>No</lista>
+     <lista>si</lista>
    </vehiculo>
    <vehiculo>
-     <marca>Opel</marca>
+     <marca>Mercedes</marca>
      <modelo>Clase E 220D</modelo>
+     <imagen/>
+     <año>2016</año>
+     <precio>16.000 &#8364;</precio>
+     <lista>si</lista>
+   </vehiculo>
+   <vehiculo>
+     <marca>Mercedess</marca>
+     <modelo>Clase E 220D</modelo>
+     <imagen/>
      <año>2016</año>
      <precio>16.000 &#8364;</precio>
      <lista>si</lista>

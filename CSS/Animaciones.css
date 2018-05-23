@@ -1,9 +1,9 @@
 header, header nav, header img {
-	animation: aparecer 2s ease-out 1;
-	-webkit-animation: aparecer 2s ease-out 1;/*Chrome, Safari, Android, iOs*/
-    -moz-animation: aparecer 2s ease-out 1; /*Firefox*/
-    -o-animation: aparecer 2s ease-out 1; /*Opera*/
-	-ms-animation: aparecer 2s ease-out 1; /*Internet Explorer*/
+	animation: aparecer 1.4s ease-out 1;
+	-webkit-animation: aparecer 1.4s ease-out 1;/*Chrome, Safari, Android, iOs*/
+    -moz-animation: aparecer 1.4s ease-out 1; /*Firefox*/
+    -o-animation: aparecer 1.4s ease-out 1; /*Opera*/
+	-ms-animation: aparecer 1.4s ease-out 1; /*Internet Explorer*/
 }
 
 @keyframes aparecer {

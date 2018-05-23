@@ -3,10 +3,12 @@
 <head>
 	<title>Coche industries</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide|Acme" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="CSS/pagina.css">
 	<link rel="stylesheet" type="text/css" href="CSS/Animaciones.css">
 	<link rel="shortcut icon" href='Imagenes/ico/dodge.ico'>
+	<link rel="shortcut icon" type="Imagenes/ico/dodge.ico" />
+	<link rel="stylesheet" type="text/css" href="CSS/login.css">
 </head>
 <body>
 	<header>
@@ -26,8 +28,9 @@
 				<li><a href="">Inicio de sesión</a>
 					<div class="desp div2">
 						<ul>
-							<li><a href="HTML/Login.html">Log in&nbsp;</a></li>
-							<li><a href="HTML/Signin.html">Sign in</a></li>
+							<li><a href = "javascript:void(0)" onclick = "document.getElementById('login').style.display='block';document.getElementById('fade').style.display='block'">Log In&nbsp;</a></li>
+									
+							<li><a href = "javascript:void(0)" onclick = "document.getElementById('singin').style.display='block';document.getElementById('fade').style.display='block'">Sing In</a></li>
 						</ul>
 					</div>
 				</li>
@@ -35,6 +38,67 @@
 			</ul>
 		</nav>
 	</header>
+
+	<content id="login">
+
+		<form class="login">
+			Nombre de Usuario:<br>
+			<input type="text"><br>
+			Contraseña:<br>
+			<input type="password"><br><br>	
+
+			<a href = "javascript:void(0)" onclick = "document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'">Log In</a>&nbsp; &nbsp; &nbsp;
+
+			<a href = "javascript:void(0)" onclick = "document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'">Close</a><br>
+
+		</form>
+
+	</content>
+
+	<content id="singin">
+
+			<form class="login">
+				Nombre de Usuario:<br>
+				<input type="text"><br>
+				Correo:<br>
+				<input type="text"><br>
+				Contraseña:<br>
+				<input type="password"><br>
+				Confirmar contraseña:<br>
+				<input type="password"><br>
+				Nombre:<br>
+				<input type="text"><br>
+				Apellidos:<br>
+				<input type="text"><br><br>
+
+				<a href = "javascript:void(0)" onclick = "document.getElementById('singin').style.display='none';document.getElementById('Sesion_iniciada').style.display='block'">Crear Usuario
+				</a><br><br>
+
+				<a href = "javascript:void(0)" onclick = "document.getElementById('singin').style.display='none';document.getElementById('fade').style.display='none'">Cancelar</a><br>
+			</form>
+
+		
+	</content>
+
+	<content id="Sesion_iniciada" class="login">
+
+		<h3>Usuario Crado Con Éxito</h3>
+
+		<a href = "javascript:void(0)" onclick = "document.getElementById('singin').style.display='none';document.getElementById('fade').style.display='none'
+		document.getElementById('Sesion_iniciada').style.display='none'">Ok</a><br>
+		
+	</content>
+
+	<div id="fade" class="black_overlay"></div>
+
+
+	<footer>
+		
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>
+		
+	</footer>
+
+
 	
 </body>
 </html>
