@@ -69,3 +69,7 @@ form, content {
 #Sesion_iniciada {
 	display: none;
 }
+
+.contacto {
+	cursor: pointer;
+}

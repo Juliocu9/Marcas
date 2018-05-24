@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="coches.xsl"?>
+<vehiculos>
+
+   <vehiculo>
+     <marca>Mercedes</marca>
+     <modelo>Clase S Cupé</modelo>
+     <imagen ruta="../Imagenes/XML/Mercedes/Clase_S_cupe/Clase_S_Cupe_1.jpeg" id="1"/>
+     <año>2018</año>
+     <precio>Por determinar </precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Mercedes</marca>
+     <modelo>SL Roadster</modelo>
+     <imagen ruta="../Imagenes/XML/Mercedes/SL_roadster/SL_roadster_1.jpeg" id="1"/>
+     <año>2018</año>
+     <precio>Desde 120.900 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Mercedes</marca>
+     <modelo>Amg GT</modelo>
+     <imagen ruta="../Imagenes/XML/Mercedes/Amg_GT/Amg_GT_1.jpeg"/>
+     <año>2018</año>
+     <precio>Por determinar</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Mercedes</marca>
+     <modelo>GLE Todoterreno</modelo>
+     <imagen ruta="../Imagenes/XML/Mercedes/GLE_Todoterreno/GLE_Todoterreno_1.jpeg"/>
+     <año>2018</año>
+     <precio>90.599,99  &#8364;</precio>
+   </vehiculo>
+   
+</vehiculos>

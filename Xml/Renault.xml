@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="coches.xsl"?>
+<vehiculos>
+
+   <vehiculo>
+     <marca>Renault</marca>
+     <modelo>Megane RS</modelo>
+     <imagen ruta="../Imagenes/XML/Renault/Megane_RS/Megane_RS.jpg" id="1"/>
+     <año>2018</año>
+     <precio>Por determinar </precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Renault</marca>
+     <modelo>Talisman</modelo>
+     <imagen ruta="../Imagenes/XML/Renault/Talisman/Talisman.jpg" id="1"/>
+     <año>2018</año>
+     <precio>Desde 22.300 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Renault</marca>
+     <modelo>Zoe</modelo>
+     <imagen ruta="../Imagenes/XML/Renault/Zoe/Zoe.jpg"/>
+     <año>2018</año>
+     <precio>Desde 20.350 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Renault</marca>
+     <modelo>Clio</modelo>
+     <imagen ruta="../Imagenes/XML/Renault/Clio/Clio.jpeg"/>
+     <año>2018</año>
+     <precio>Desde 110&#8364;/ Mes</precio>
+   </vehiculo>
+</vehiculos>

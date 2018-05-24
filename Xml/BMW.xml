@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="coches.xsl"?>
+<vehiculos>
+
+   <vehiculo>
+     <marca>BMW</marca>
+     <modelo>Serie 6 Cabrio</modelo>
+     <imagen ruta="../Imagenes/XML/BMW/Serie_6/Serie_6.jpg"/>
+     <año>2018</año>
+     <precio>Desde 111.850 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>BMW</marca>
+     <modelo>BMW i8 Coupé </modelo>
+     <imagen ruta="../Imagenes/XML/BMW/I8/I8.jpg"/>
+     <año>2018</año>
+     <precio>Desde 145.200 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>BMW</marca>
+     <modelo>M6 Cabrio</modelo>
+     <imagen ruta="../Imagenes/XML/BMW/M6/M6.jpg"/>
+     <año>2018</año>
+     <precio>Desde 164.600 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>BMW</marca>
+     <modelo>Serie 4 Coupé</modelo>
+     <imagen ruta="../Imagenes/XML/BMW/Serie_4/Serie_4.jpg"/>
+     <año>2018</año>
+     <precio>Desde  42.150 &#8364;</precio>
+   </vehiculo>
+</vehiculos>

@@ -46,6 +46,13 @@ footer {
 	top: 90%;
 }
 
+footer img {
+	margin-top: 20px;
+	margin-left: 10px;
+	position: inherit;
+	height: 30px;
+}
+
 .logo {
 	margin-top: 5px;
 	cursor: pointer;

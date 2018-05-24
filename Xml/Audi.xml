@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="coches.xsl"?>
+<vehiculos>
+
+   <vehiculo>
+     <marca>Audi</marca>
+     <modelo>R8</modelo>
+     <imagen ruta="../Imagenes/XML/Audi/R8/R8.jpeg"/>
+     <año>2018</año>
+     <precio>Desde 199.600 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Audi</marca>
+     <modelo>A8 </modelo>
+     <imagen ruta="../Imagenes/XML/Audi/A8/A8.jpeg"/>
+     <año>2018</año>
+     <precio>Desde 97.430 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Audi</marca>
+     <modelo>A6</modelo>
+     <imagen ruta="../Imagenes/XML/Audi/A6/A6.jpeg"/>
+     <año>2018</año>
+     <precio>Desde 64.550 &#8364;</precio>
+   </vehiculo>
+   
+   <vehiculo>
+     <marca>Audi</marca>
+     <modelo>A3 Cabrio</modelo>
+     <imagen ruta="../Imagenes/XML/Audi/A3/A3.jpeg"/>
+     <año>2018</año>
+     <precio>Desde  59.780 &#8364;</precio>
+   </vehiculo>
+</vehiculos>
