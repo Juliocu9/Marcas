@@ -10,11 +10,17 @@
      	<xsl:for-each select="//vehiculos/vehiculo"> 
      	
      		<div class="coches">
-     			  <td><xsl:value-of select="imagen"/></td>
-            <td><xsl:value-of select="marca"/></td>
-            <td><xsl:value-of select="modelo"/></td>
-            <td><xsl:value-of select="año"/></td>
-            <td><xsl:value-of select="precio"/></td>
+     		  <ul>
+     			  <xsl:element name="img">
+              <xsl:attribute name="src">
+                <xsl:value-of select="imagen/@ruta"/>
+              </xsl:attribute>
+            </xsl:element>
+            <li><xsl:value-of select="marca"/></li>
+            <li><xsl:value-of select="modelo"/></li>
+            <li><xsl:value-of select="año"/></li>
+            <li><xsl:value-of select="precio"/></li>
+          </ul>
      		</div>
 
      	</xsl:for-each>

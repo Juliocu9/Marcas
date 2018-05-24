@@ -26,6 +26,7 @@ header a, p {
 	color: black;
 	font-size: 30px;
 	font-family: 'Audiowide', cursive;
+	cursor: default;
 
 }
 
@@ -47,6 +48,7 @@ footer {
 
 .logo {
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 nav ul,ol {
@@ -55,7 +57,7 @@ nav ul,ol {
 }
 
 .desp {
-	visibility: collapse;
+	display: none;
 	min-width:140px;
 	height: 80px;
 	position: fixed;
@@ -79,11 +81,12 @@ nav ul,ol {
 	padding: 10px;
 	padding-right: 50px; 
 	padding-left: 10px;
+	cursor: pointer;
 
 }
 
 .menu li:hover > div {
-	visibility: visible;
+	display: block;
 }
 
 .menu > li {

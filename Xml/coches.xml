@@ -3,36 +3,50 @@
 <vehiculos>
 
    <vehiculo>
-     <marca>Mercedess</marca>
-     <modelo>Clase E 220D</modelo>
-     <imagen/>
-     <año>2016</año>
-     <precio>16.000 &#8364;</precio>
-     <lista>si</lista>
+     <marca>Mercedes</marca>
+     <modelo>Clase S Cupé</modelo>
+     <imagen ruta="../Imagenes/XML/Clase_S_cupe/Clase_S_Cupe_1.jpeg" id="1"/>
+     <año>2018</año>
+     <precio>Por determinar </precio>
+     <imagen ruta="../Imagenes/XML/Clase_S_cupe/Clase_S_Cupe_2.jpeg" id="1"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_cupe/Clase_S_Cupe_3.jpeg" id="2"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_cupe/Clase_S_Cupe_4.jpeg" id="3"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_cupe/Clase_S_Cupe_5.jpeg" id="4"/>
    </vehiculo>
-   <vehiculo>
-     <marca>Mercedess</marca>
-     <modelo>Clase E 220D</modelo>
-     <imagen/>
-     <año>2016</año>
-     <precio>16.000 &#8364;</precio>
-     <lista>si</lista>
-   </vehiculo>
+   
    <vehiculo>
      <marca>Mercedes</marca>
-     <modelo>Clase E 220D</modelo>
-     <imagen/>
-     <año>2016</año>
-     <precio>16.000 &#8364;</precio>
-     <lista>si</lista>
+     <modelo>SL Roadster</modelo>
+     <imagen ruta="..\Imagenes\XML\SL_roadster/SL_roadster_1.jpeg" id="1"/>
+     <año>2018</año>
+     <precio>Desde 120.900 &#8364;</precio>
+     <imagen ruta="..\Imagenes\XML\SL_roadster/SL_roadster_2.jpeg" id="1"/>
+     <imagen ruta="..\Imagenes\XML\SL_roadster/SL_roadster_3.jpeg" id="2"/>
+     <imagen ruta="..\Imagenes\XML\SL_roadster/SL_roadster_4.jpeg" id="3"/>
+     <imagen ruta="..\Imagenes\XML\SL_roadster/SL_roadster_5.jpeg" id="4"/>
    </vehiculo>
+   
    <vehiculo>
-     <marca>Mercedess</marca>
-     <modelo>Clase E 220D</modelo>
-     <imagen/>
-     <año>2016</año>
-     <precio>16.000 &#8364;</precio>
-     <lista>si</lista>
+     <marca>Mercedes</marca>
+     <modelo>GLE Todoterreno</modelo>
+     <imagen ruta="..\Imagenes\XML\GLE_Todoterreno/GLE_Todoterreno_1.jpeg"/>
+     <año>2018</año>
+     <precio>Por determinar &#8364;</precio>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_2.jpeg" id="1"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_3.jpeg"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_4.jpeg"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_5.jpeg"/>
    </vehiculo>
-
+   
+   <vehiculo>
+     <marca>Mercedes</marca>
+     <modelo>Clase S Cupé</modelo>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_1.jpeg"/>
+     <año>2018</año>
+     <precio>Por determinar &#8364;</precio>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_2.jpeg" id="1"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_3.jpeg"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_4.jpeg"/>
+     <imagen ruta="../Imagenes/XML/Clase_S_Cupe_5.jpeg"/>
+   </vehiculo>
 </vehiculos>
